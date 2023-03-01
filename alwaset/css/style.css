@@ -875,7 +875,7 @@ font-style: normal;
     max-width: 85vw;
     max-height:100vh;
     border-radius:5px;  
-  /*   box-shadow: 0px 5px 35px 9px #464a92; */
+/*  box-shadow: 0px 5px 35px 9px #464a92; */
     box-shadow: 0px 5px 35px 9px #ccc;
     z-index: 2;
 }
@@ -889,7 +889,7 @@ font-style: normal;
     height:70px;
     border-top-left-radius:5px;
     border-top-right-radius:5px; 
-    color:white;
+    color: white;
     text-align:center;
     font-size:20px;
     font-family: 'Almarai', sans-serif !important;
@@ -956,7 +956,7 @@ font-style: normal;
     box-shadow:none;
     border:none;
     border-radius:50%;
-    color:#5A5EB9;
+    color: hsl(35deg 87% 49%);
     width:35px;
     height:35px;  
 }
@@ -980,7 +980,7 @@ font-style: normal;
 
 .chat-button .chat-logs::-webkit-scrollbar-thumb
 {
-    background-color: #5A5EB9;
+    background-color: hsl(35deg 87% 49%);
 }
 
 
@@ -1022,7 +1022,7 @@ font-style: normal;
 .chat-button .chat-msg.self > .cm-msg-text {  
     float:right;
     margin-right:10px;
-    background: #5A5EB9;
+    background: hsl(35deg 87% 49%);
     color:white;
 }
 .chat-button .cm-msg-button>ul>li {
