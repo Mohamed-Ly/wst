@@ -38,7 +38,7 @@
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Alwaset</h5>
-            <button type="button" class="btn-close" id="close-x" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <i class="fa-sharp fa-solid fa-xmark close-x" aria-label="Close" data-bs-dismiss="offcanvas"></i>
             </div>
             <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1">
@@ -146,24 +146,13 @@
             <div class="row pt-5 pb-5">
                 <div class="col-md-6 col-lg-3">
                     <div class="box">
-                        <i class="fa-solid fa-sack-dollar"></i>
-                        <h3>الضمان يدفع للبائع</h3>
+                        <i class="fa-solid fa-handshake-simple"></i>
+                        <h3>يتفق البائع والمشتري</h3>
                         <p>
-                            بعد تأكيد التسليم للمشتري يتم فك الحجز على الاموال في محفظة البائع ويمكنه سحبها
+                            يتم الاتفاق بين البائع والمشتري على ثمن ونوع الخدمة
                         </p>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="box">
-                        <i class="fa-solid fa-circle-check"></i>
-                        <h3>تسليم الخدمة</h3>
-                        <p>
-                            يعمل الضمان على تأكيد و تسليم الخدمة للمشتري
-                        </p>
-                    </div>
-                </div>
-
                 <div class="col-md-6 col-lg-3">
                     <div class="box">
                         <i class="fa-solid fa-hand-holding-dollar"></i>
@@ -173,13 +162,21 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-3">
                     <div class="box">
-                        <i class="fa-solid fa-handshake-simple"></i>
-                        <h3>يتفق البائع والمشتري</h3>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h3>تسليم الخدمة</h3>
                         <p>
-                            يتم الاتفاق بين البائع والمشتري على ثمن ونوع الخدمة
+                            يعمل الضمان على تأكيد و تسليم الخدمة للمشتري
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <h3>الضمان يدفع للبائع</h3>
+                        <p>
+                            بعد تأكيد التسليم للمشتري يتم فك الحجز على الاموال في محفظة البائع ويمكنه سحبها
                         </p>
                     </div>
                 </div>
@@ -353,40 +350,40 @@
 
     <!-- START CONTACT SECTION -->
     <div class="contact-section pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <h1>إتصل بنا</h1>
+            <div class="container">
+                <div class="row">
+                    <h1>إتصل بنا</h1>
+                </div>
+                <div class="row input-container">
+                    <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text" required>
+                        <label>الأسم</label> 
+                    </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                    <div class="styled-input">
+                        <input type="text" required />
+                        <label>البريد الألكتروني</label> 
+                    </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                    <div class="styled-input" style="float:right;">
+                        <input type="text" required />
+                        <label>الموضوع</label> 
+                    </div>
+                    </div>
+                    <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <textarea required></textarea>
+                        <label>الرسالة</label>
+                    </div>
+                    </div>
+                    <div class="col-xs-12">
+                    <a href=""><div class="btn-lrg submit-btn">إرسال</div></a>
+                    </div>
+                </div>
             </div>
-            <div class="row input-container">
-                <div class="col-xs-12">
-                <div class="styled-input wide">
-                    <input type="text" required />
-                    <label>الأسم</label> 
-                </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                <div class="styled-input">
-                    <input type="text" required />
-                    <label>البريد الألكتروني</label> 
-                </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                <div class="styled-input" style="float:right;">
-                    <input type="text" required />
-                    <label>الموضوع</label> 
-                </div>
-                </div>
-                <div class="col-xs-12">
-                <div class="styled-input wide">
-                    <textarea required></textarea>
-                    <label>الرسالة</label>
-                </div>
-                </div>
-                <div class="col-xs-12">
-                <a href=""><div class="btn-lrg submit-btn">إرسال</div></a>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- END CONTACT SECTION -->
 
