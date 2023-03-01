@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alwaset</title>
+    <!-- BOOTSTRAP FILE -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- FONT AWESOME FILE -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- OWL CARUSEL -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- MAIN CSS FILE -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- START NAVBAR -->
+    <nav class="navbar fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="#">Alwaset</a>
+        <div class="information">
+                <div class="first-information-btn">
+                    <a href="login.html" target="_blank"><button class="verse-btn">دخول</button></a>
+                </div>
+                <div class="second-information-btn">
+                    <a href="signup.html" target="_blank"><button class="verse-btn">حساب جديد</button></a>
+                </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Alwaset</h5>
+            <button type="button" class="btn-close" id="close-x" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                    <div class="parent-nav-links">
+                        <a class="nav-link change" aria-current="page" href="#">دخول</a>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </div>
+                </li>
+                    <li class="nav-item">
+                        <div class="parent-nav-links">
+                            <a class="nav-link change" href="#">حساب جديد</a>
+                            <i class="fa-solid fa-user-plus add-new"></i>
+                        </div>
+                        </li>
+                <li class="nav-item">
+                    <div class="parent-nav-links">
+                        <a class="nav-link change" href="#">مجتمع الوسيط</a>
+                        <i class="fa-solid fa-comment"></i>
+                    </div>
+                    </li>
+                <li class="nav-item">
+                    <div class="parent-nav-links">
+                        <a class="nav-link change" href="#">حول الوسيط</a>
+                        <i class="fa-solid fa-file-lines"></i>
+                    </li>
+                    </div>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+
+
+    <!-- START LANDING -->
+    <div class="landing">
+        <div class="content">
+            <h1>أفضل منصة</h1>
+            <h2>لشراء خدمات التواصل الإجتماعي</h2>
+            <p>من خلال منصة الوسيط يمكنك بيع وشراء حسابات التواصل الأجتماعي بأمان</p>
+            <div class="buttons">
+                <a href="#first-section"><button class="landing-btn">نبذة عن الوسيط الرقمي</button></a>
+                <a href="#second-section"><button class="landing-btn">بيع و شراء المعاملات الألكترونية</button></a>
+                <a href="#third-section"><button class="landing-btn">بيع و شراء المنتجات الرقمية</button></a>
+                <a href="#forth-section"><button class="landing-btn">بيع و شراء الحسابات وشحنهم</button></a>
+            </div>
+            <div class="login-info-min">
+                <button class="login-btn">حساب جديد</button>
+                <button class="login-btn">دخول</button>
+            </div>
+        </div>
+
+
+
+        <!-- SIMPLE WAVE -->
+        <div class="waves-parent">
+            <svg class="my-waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="hsl(35deg 87% 49%)" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,202.7C384,192,480,160,576,138.7C672,117,768,107,864,138.7C960,171,1056,245,1152,277.3C1248,309,1344,299,1392,293.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+            </svg>
+        </div>
+
+
+
+
+
+        <!-- ANIMATION WAVES -->
+
+        <div class="waveAnimation">
+            <svg viewBox="0 0 700 150" preserveAspectRatio="none">
+            <path
+            class="w1 waveTop"
+            d="M-8.74,71.55 C289.78,255.11 349.60,4.47 505.36,34.05 L500.00,150.00 L0.00,150.00 Z"
+            />
+            <path
+            class="w2 waveMiddle"
+            d="M-23.42,125.83 C187.63,45.89 299.38,57.73 526.80,123.86 L500.00,150.00 L0.00,150.00 Z"
+            />
+            <path
+            class="w3 waveBottom"
+            d="M-23.42,125.83 C172.96,-152.44 217.55,183.06 504.22,55.77 L500.00,150.00 L0.00,150.00 Z"
+            />
+            </svg>
+        </div>
+
+
+
+    </div>
+
+    <!-- END LANDING -->
+
+
+
+
+    <!-- START FIRST SECTION -->
+    <div class="first-section pt-5 pb-5" id="first-section">
+        <div class="container">
+            <div class="scrl">
+                <i id="up" class="fa-solid fa-chevron-up"></i>
+            </div>
+            <div class="main-title">
+                <h1>نبذة عن الوسيط الرقمي</h1>
+            </div>
+            <div class="row pt-5 pb-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="box">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <h3>الضمان يدفع للبائع</h3>
+                        <p>
+                            بعد تأكيد التسليم للمشتري يتم فك الحجز على الاموال في محفظة البائع ويمكنه سحبها
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="box">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h3>تسليم الخدمة</h3>
+                        <p>
+                            يعمل الضمان على تأكيد و تسليم الخدمة للمشتري
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="box">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <h3>الدفع الى الضمان</h3>
+                        <p>
+                            يتم الدفع الى الضمان عن طريق شحن المحفظة بعد عملية التسجيل
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="box">
+                        <i class="fa-solid fa-handshake-simple"></i>
+                        <h3>يتفق البائع والمشتري</h3>
+                        <p>
+                            يتم الاتفاق بين البائع والمشتري على ثمن ونوع الخدمة
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END FIRST SECTION -->
+
+
+
+
+
+    <!-- START SECOND SECTION -->
+    <div class="second-section pt-5 pb-5" id="second-section">
+        <div class="container">
+            <div class="main-title">
+                <h1>بيع و شراء المعاملات الألكترونية</h1>
+            </div>
+            <div class="row pt-5 pb-5">
+                    <div class="marquee">
+                        <ul class="marquee-content">
+                        <li><img src="./images/paypal.png" alt=""></li>
+                        <li><img src="./images/btc.png" alt=""></li>
+                        <li><img src="./images/usdc.png" alt=""></li>
+                        <li><img src="./images/usdt.png" alt=""></li>
+                        <li><img src="./images/perfect-money.png" alt=""></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SECOND SECTION -->
+
+
+
+
+
+    <!-- START THIRD SECTION -->
+    <div class="third-section pt-5 pb-5" id="third-section">
+        <div class="main-title ps-2 pe-2">
+            <h1>بيع و شراء المنتجات الرقمية</h1>
+        </div>
+        <div class="container">
+            <div class="card-carousel">
+            <div class="card" id="1">
+                <div class="image-container"></div>
+                <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>
+            <div class="card" id="2">
+                <div class="image-container"></div>
+                <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>
+            <div class="card" id="3">
+                <div class="image-container"></div>
+                <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>  
+            <div class="card" id="4">
+                <div class="image-container"></div>
+                <p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>
+            <div class="card" id="5">
+                <div class="image-container"></div>
+                <p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+            </div>
+            </div>
+            <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+        </div>
+    </div>
+    <!-- END THIRD SECTION -->
+
+
+
+
+
+
+        <!-- START FORTH SECTION -->
+        <div class="forth-section pt-5" id="forth-section">
+            <div class="container">
+                <div class="main-title">
+                    <h1>بيع و شراء الحسابات و شحنهم</h1>
+                </div>
+                <div class="row pt-3">
+                    <div class="brand-carousel section-padding owl-carousel">
+                        <div class="single-logo">
+                        <img src="./images/accounts/apex.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/tiktok.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/callofduty.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/fifa.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/discord.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/cdgo.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/clashofclans.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/clashroyal.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/genshinimpact.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/twitter.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/leagueoflegends.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/xbox.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/ubisoft.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/steam.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/snapchat.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/plastation.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/origin.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img class="gta-img" src="./images/accounts/gta.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                            <img class="pubg-img" src="./images/accounts/pubgmobile.png" alt="">
+                            </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/instagram.png" alt="">
+                        </div>
+                        <div class="single-logo">
+                        <img src="./images/accounts/fortnite.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END FORTH SECTION -->
+
+
+
+
+
+
+
+        <!-- START TEAM WORK SECTION -->
+        <div class="support-section pt-5 pb-5">
+            <div class="container">
+            <h1>supputr 24</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem necessitatibus ducimus, accusantium magni qui cumque.</p>
+            </div>
+        </div>
+        <!-- END  TEAM WORK SECTION -->
+
+
+
+
+
+    <!-- START CONTACT SECTION -->
+    <div class="contact-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h1>إتصل بنا</h1>
+            </div>
+            <div class="row input-container">
+                <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <input type="text" required />
+                    <label>الأسم</label> 
+                </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                    <input type="text" required />
+                    <label>البريد الألكتروني</label> 
+                </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                    <input type="text" required />
+                    <label>الموضوع</label> 
+                </div>
+                </div>
+                <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <textarea required></textarea>
+                    <label>الرسالة</label>
+                </div>
+                </div>
+                <div class="col-xs-12">
+                <a href=""><div class="btn-lrg submit-btn">إرسال</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CONTACT SECTION -->
+
+
+
+
+
+
+
+    <!-- START CHAT BTN -->
+    <div class="chat-button">
+        <div id="center-text">
+        </div> 
+        <div id="body"> 
+        
+        <div id="chat-circle" class="btn btn-raised">
+                <div id="chat-overlay"></div>
+                <i class="fa-sharp fa-solid fa-headset material-icons"></i>
+            </div>
+        
+        <div class="chat-box">
+            <div class="chat-box-header">
+            الدعم الفني
+            <span class="chat-box-toggle"><i class="fa-sharp fa-solid fa-xmark material-icons"></i></span>
+            </div>
+            <div class="chat-box-body">
+            <div class="chat-box-overlay">   
+            </div>
+            <div class="chat-logs">
+            
+            </div><!--chat-log -->
+            </div>
+            <div class="chat-input">      
+            <form>
+                <input type="text" id="chat-input" placeholder="Send a message..."/>
+            <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">إرسال</i></button>
+            </form>      
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    <!-- END CHAT BTN -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- OWL CARUSEL SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><!-- latest jquery file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- BOOTSTRAP JS FILE -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- MAIN JS FILE -->
+    <script src="./js/waseet.js"></script>
+</body>
+</html>
