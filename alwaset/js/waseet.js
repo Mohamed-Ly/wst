@@ -482,4 +482,91 @@ $(function() {
 });
 
 
-// ======================= MSG BTN FROM CONTACT SECTION =======================
+// ======================= START NUMBER COUNTER SECTION =======================
+
+// Just added bootstrap v4.5 css
+// You don't need any other library to run this counter
+const animationDuration = 3000;
+
+const frameDuration = 1000 / 60;
+
+const totalFrames = Math.round( animationDuration / frameDuration );
+
+const easeOutQuad = t => t * ( 2 - t );
+
+const animateCountUp = el => {
+	let frame = 0;
+	const countTo = parseInt( el.innerHTML, 10 );
+	
+	const counter = setInterval( () => {
+		frame++;
+
+		const progress = easeOutQuad( frame / totalFrames );
+
+		const currentCount = Math.round( countTo * progress );
+
+
+		if ( parseInt( el.innerHTML, 10 ) !== currentCount ) {
+			el.innerHTML = currentCount;
+		}
+
+		if ( frame === totalFrames ) {
+			clearInterval( counter );
+		}
+	}, frameDuration );
+};
+
+	const countupEls = document.querySelectorAll( '.timer' );
+	countupEls.forEach( animateCountUp );
+
+// ======================= END NUMBER COUNTER SECTION =======================
+
+
+
+
+
+
+
+// ====================== START TYPING SCRIPT =======================
+const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["لبيع وشراء الخدمات", "لبيع وشراء الحسابات", "لضمان حق البائع والمشتري"];
+const typingDelay = 200;
+const erasingDelay = 100;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+} 
+else {
+    cursorSpan.classList.remove("typing");
+    setTimeout(erase, newTextDelay);
+}
+}
+
+function erase() {
+if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+} 
+else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+}
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+// ====================== END TYPING SCRIPT =========================
