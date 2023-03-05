@@ -1550,3 +1550,312 @@ font-style: normal;
     top: -5px;
 }
 /* ================================== END USER PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+/* ================================== STAR TRANSFORM MONEY PAGE ================================== */
+.content-tranform-money {
+    position: relative;
+}
+.content-tranform-money .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-tranform-money .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-tranform-money .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-tranform-money .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-tranform-money .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-tranform-money .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-tranform-money .transform-monny-landing {
+    min-height: 100vh;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-tranform-money .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-tranform-money .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-tranform-money .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-tranform-money .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-tranform-money .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-tranform-money .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-tranform-money .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-tranform-money .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-tranform-money .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-tranform-money .lks .dropdown .dropdown-menu .parent-link-icon a:hover {
+    background-color: #fff;
+}
+
+
+
+.content-tranform-money .transform-monny-landing .main-content {
+    width: 350px;
+    height: 370px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    text-align: right;
+}
+.content-tranform-money .transform-monny-landing .main-content .first-box {
+    margin: 10px 0 35px;
+}
+.content-tranform-money .transform-monny-landing .main-content .first-box .lbl {
+    font-weight: 600;
+}
+.content-tranform-money .transform-monny-landing .main-content .submit-btn {
+    display: block;
+    margin: 25px auto 0;
+    width: 120px;
+    background-color: hsl(35deg 87% 49%);
+    color: #333;
+    font-weight: 600;
+    border: none;
+}
+.content-tranform-money .transform-monny-landing .send-bnk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-tranform-money .transform-monny-landing .send-bnk .inp-bnk {
+    height: 45px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 6px 0px 0px 6px;
+    width: 140px;
+}
+.content-tranform-money .transform-monny-landing .send-bnk .inp-bnk:focus {
+    border: 1px solid #0d6efd;
+}
+.content-tranform-money .transform-monny-landing .send-bnk .form-select {
+    height: 45px;
+    border-radius: 0px 6px 6px 0px;
+    box-shadow: none;
+    width: 140px;
+    background-color: hsl(35deg 87% 49%);
+    color: #333;
+}
+.content-tranform-money .transform-monny-landing .send-bnk .form-select option {
+    background-color: #fff;
+}
+.content-tranform-money .transform-monny-landing .send-bnk .form-select .scl-opt {
+    text-align: right;
+}
+/* ================================== END TRANSFORM MONEY PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== STAR CONFIRM MONEY PAGE ================================== */
+.content-confirm-money {
+    position: relative;
+}
+.content-confirm-money .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-confirm-money .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-confirm-money .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-confirm-money .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-confirm-money .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-confirm-money .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-confirm-money .transform-monny-landing {
+    min-height: 100vh;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-confirm-money .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-confirm-money .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-confirm-money .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-confirm-money .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-confirm-money .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-confirm-money .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-confirm-money .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-confirm-money .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-confirm-money .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-confirm-money .lks .dropdown .dropdown-menu .parent-link-icon a:hover {
+    background-color: #fff;
+}
+
+
+
+
+.content-confirm-money .confirm-monny-landing {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-confirm-money .confirm-monny-landing .table-parent {
+    width: 90%;
+}
+
+
+.content-confirm-money .confirm-monny-landing .table-parent .table {
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+.content-confirm-money .confirm-monny-landing .table-parent .table td {
+    padding: 20px;
+}
+.content-confirm-money .confirm-monny-landing .table-parent .table .border-lft {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 250px;
+}
+@media (max-width: 767px) {
+    .content-confirm-money .confirm-monny-landing .table-parent .table .border-lft {
+        width: 130px;
+    }
+}
+.content-confirm-money .confirm-monny-landing .table-parent .table .border-lft-value {
+    border-left: 1px solid #ddd;
+}
+.content-confirm-money .confirm-monny-landing .table-parent .cpt {
+    padding: 20px;
+    background-color: hsl(35deg 87% 49%);
+    text-align: center;
+    color: #333;
+}
+.content-confirm-money .confirm-monny-landing .table-parent .cpt h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.content-confirm-money .confirm-monny-landing .table-parent .cpt p {
+    margin: 0;
+    font-weight: 400;
+}
+
+
+.content-confirm-money .confirm-monny-landing .table-parent .send-money {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.content-confirm-money .confirm-monny-landing .table-parent .send-money .wlt-lbl {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.content-confirm-money .confirm-monny-landing .table-parent .send-money .form-control {
+    box-shadow: none;
+}
+.content-confirm-money .confirm-monny-landing .table-parent .send-money .form-control::placeholder {
+    text-align: right;
+}
+.content-confirm-money .confirm-monny-landing .table-parent .send-money .comfirm-btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: hsl(35deg 87% 49%);
+    border: none;
+    color: #333;
+    font-weight: 600;
+}
+/* ================================== END CONFIRM MONEY PAGE ================================== */
