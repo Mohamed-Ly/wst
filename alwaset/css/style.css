@@ -1588,7 +1588,7 @@ font-style: normal;
 }
 .content-tranform-money .transform-monny-landing {
     min-height: 100vh;
-    background-color: #ddd;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1643,7 +1643,8 @@ font-style: normal;
     width: 350px;
     height: 370px;
     padding: 20px;
-    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border: 1px solid #ddd;
     border-radius: 6px;
     text-align: right;
 }
