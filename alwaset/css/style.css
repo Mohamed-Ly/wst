@@ -1860,3 +1860,390 @@ font-style: normal;
     font-weight: 600;
 }
 /* ================================== END CONFIRM MONEY PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== STAR BILLS PAGE ================================== */
+.content-bills {
+    position: relative;
+}
+.content-bills .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-bills .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-bills .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-bills .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-bills .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-bills .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-bills .bills-landing {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-bills .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-bills .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-bills .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-bills .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-bills .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-bills .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-bills .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-bills .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-bills .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-bills .lks .dropdown .dropdown-menu .parent-link-icon a:hover {
+    background-color: #fff;
+}
+
+
+.content-bills .bills-landing {
+    background-color: #fff;
+}
+.content-bills .bills-landing .row a {
+    text-decoration: none;
+}
+.content-bills .bills-landing .row .box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+    border-radius: 6px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+@media (max-width: 991px) {
+    .content-bills .bills-landing .row .box {
+        margin-top: 25px;
+    }
+}
+.content-bills .bills-landing .row .box:hover {
+    border-color: hsl(35deg 87% 49%);
+}
+.content-bills .bills-landing .row #first-box {
+    padding: 22px 20px;
+}
+.content-bills .bills-landing .row #first-box #first-h-four {
+    margin: 16px 0 0;
+}
+.content-bills .bills-landing .row .box .image img {
+    max-width: 100%;
+}
+.content-bills .bills-landing .row .box .info h4 {
+    text-align: center;
+    margin: 10px 0 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+/* ================================== END BILLS PAGE ================================== */
+
+
+
+
+
+
+
+
+
+/* ================================== STAR BILLS TWO PAGE ================================== */
+.content-bills-two {
+    position: relative;
+}
+.content-bills-two .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-bills-two .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-bills-two .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-bills-two .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-bills-two .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-bills-two .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-bills-two .bills-two-landing {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-bills-two .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-bills-two .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-bills-two .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-bills-two .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-bills-two .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-bills-two .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-bills-two .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-bills-two .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-bills-two .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-bills-two .lks .dropdown .dropdown-menu .parent-link-icon a:hover {
+    background-color: #fff;
+}
+
+
+.content-bills-two .bills-two-landing .send-money {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 350px;
+    height: 200px;
+}
+.content-bills-two .bills-two-landing .send-money .wlt-lbl {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content-bills-two .bills-two-landing .send-money .form-control {
+    box-shadow: none;
+}
+.content-bills-two .bills-two-landing .send-money .form-control::placeholder {
+    text-align: right;
+}
+.content-bills-two .bills-two-landing .send-money .comfirm-btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: hsl(35deg 87% 49%);
+    border: none;
+    color: #333;
+    font-weight: 600;
+}
+/* ================================== END BILLS TWO PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== STAR CONFIRM BILLS PAGE ================================== */
+.content-confirm-bills {
+    position: relative;
+}
+.content-confirm-bills .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-confirm-bills .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-confirm-bills .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-confirm-bills .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-confirm-bills .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-confirm-bills .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-confirm-bills .confirm-bills-landing {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-confirm-bills .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-confirm-bills .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-confirm-bills .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-confirm-bills .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-confirm-bills .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-confirm-bills .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-confirm-bills .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-confirm-bills .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-confirm-bills .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-confirm-bills .lks .dropdown .dropdown-menu .parent-link-icon a:hover {
+    background-color: #fff;
+}
+
+
+
+
+.content-confirm-bills .confirm-bills-landing .table-parent {
+    width: 90%;
+}
+
+
+.content-confirm-bills .confirm-bills-landing .table-parent .table {
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+.content-confirm-bills .confirm-bills-landing .table-parent .table td {
+    padding: 20px;
+}
+.content-confirm-bills .confirm-bills-landing .table-parent .table .border-lft {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 250px;
+}
+@media (max-width: 767px) {
+    .content-confirm-bills .confirm-bills-landing .table-parent .table .border-lft {
+        width: 130px;
+    }
+}
+.content-confirm-bills .confirm-bills-landing .table-parent .table .border-lft-value {
+    border-left: 1px solid #ddd;
+}
+.content-confirm-bills .confirm-bills-landing .table-parent .cpt {
+    padding: 20px;
+    background-color: hsl(35deg 87% 49%);
+    text-align: center;
+    color: #333;
+}
+.content-confirm-bills .confirm-bills-landing .table-parent .cpt h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.content-confirm-bills .confirm-bills-landing .table-parent .cpt p {
+    margin: 0;
+    font-weight: 400;
+}
+
+
+
+.content-confirm-bills .confirm-bills-landing .table-parent .comfirm-btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: hsl(35deg 87% 49%);
+    border: none;
+    color: #333;
+    font-weight: 600;
+}
+/* ================================== END CONFIRM BILLS PAGE ================================== */
