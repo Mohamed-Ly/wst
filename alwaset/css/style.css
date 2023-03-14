@@ -2424,3 +2424,1012 @@ font-style: normal;
     animation: colored-circle 0.6s ease-in-out 0.7s backwards;
     }
 /* ================================== END ALERT MODAL PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================= START SELECT GIFTS ===================================== */
+.content-select-gifts {
+    position: relative;
+}
+.content-select-gifts .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-select-gifts .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-select-gifts .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-select-gifts .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-select-gifts .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-select-gifts .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-select-gifts .select-gifts-landing {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-select-gifts .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-select-gifts .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-select-gifts .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-select-gifts .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-select-gifts .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-select-gifts .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-select-gifts .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-select-gifts .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-select-gifts .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-select-gifts .lks .dropdown .dropdown-menu .parent-link-icon a:hover {
+    background-color: #fff;
+}
+
+
+
+.content-select-gifts .select-gifts-landing .content-selects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+@media (max-width: 991px) {
+    .content-select-gifts .select-gifts-landing .content-selects {
+        flex-direction: column;
+    }
+}
+.content-select-gifts .select-gifts-landing .content-selects a {
+    text-decoration: none;
+}
+.content-select-gifts .select-gifts-landing .content-selects .box-one {
+    padding: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    max-width: 350px;
+    height: 245px;
+    text-align: center;
+    margin-top: 35px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    transition: 0.5s;
+}
+.content-select-gifts .select-gifts-landing .content-selects .box-two {
+    padding: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    max-width: 350px;
+    height: 245px;
+    text-align: center;
+    margin-top: 35px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    transition: 0.5s;
+}
+.content-select-gifts .select-gifts-landing .content-selects .box-one:hover {
+    box-shadow: none;
+    transform: translateY(-10px);
+}
+.content-select-gifts .select-gifts-landing .content-selects .box-two:hover {
+    box-shadow: none;
+    transform: translateY(-10px);
+}
+.content-select-gifts .select-gifts-landing .content-selects .image {
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+.content-select-gifts .select-gifts-landing .content-selects .image img {
+    max-width: 100%;
+    width: 250px;
+}
+.content-select-gifts .select-gifts-landing .content-selects h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+}
+.content-select-gifts .select-gifts-landing .content-selects .heading-two {
+    margin-top: 57px;
+}
+/* ================================= END SELECT GIFTS ===================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== START CHARGE GAMES PAGE ================================== */
+.content-games {
+    position: relative;
+}
+.content-games .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-games .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-games .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-games .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-games .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-games .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-games .games-landing {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-games .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-games .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-games .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-games .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-games .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-games .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-games .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-games .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-games .lks .dropdown .dropdown-menu .parent-link-icon a:hover {
+    background-color: #fff;
+}
+
+
+.content-games .games-landing .row .box {
+    text-align: center;
+    transition: 0.3s;
+}
+@media (max-width: 991px) {
+    .content-games .games-landing .row .box {
+        margin-top: 25px;
+    }
+}
+@media (min-width: 992px) {
+    .content-games .games-landing .row .box {
+        margin-top: 25px;
+    }
+}
+.content-games .games-landing .row .box:hover {
+    transform: translateY(-10px);
+}
+.content-games .games-landing .row .box img {
+    max-width: 100%;
+    height: 320px;
+    width: 250px;
+    border-radius: 8px;
+}
+/* ================================== END CHARGE GAMES PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== START PUBG PAGE ================================== */
+.content-games-pubg {
+    position: relative;
+}
+.content-games-pubg .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-games-pubg .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-games-pubg .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-pubg .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-pubg .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-games-pubg .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-games-pubg .games-landing-pubg {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-pubg .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-games-pubg .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-games-pubg .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-games-pubg .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-games-pubg .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-games-pubg .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-games-pubg .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-games-pubg .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-games-pubg .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-games-pubg .lks .dropdown .dropdown-menu .parent-link-icon a:hover {  
+    background-color: #fff;
+}
+
+
+.content-games-pubg .games-landing-pubg .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-pubg .games-landing-pubg .content {
+    width: 550px;
+    height: 510px;
+    padding: 20px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+}
+.content-games-pubg .games-landing-pubg .content .image {
+    margin-bottom: 20px;
+}
+.content-games-pubg .games-landing-pubg .content .image img {
+    max-width: 100%;
+    width: 140px;
+}
+.content-games-pubg .games-landing-pubg .content .form-select {
+    width: 280px;
+    margin: 0 auto;
+    box-shadow: none;
+    height: 50px;
+}
+.content-games-pubg .games-landing-pubg .content .inp-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+.content-games-pubg .games-landing-pubg .content .email-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    caret-color: hsl(35deg 87% 49%);
+}
+.content-games-pubg .games-landing-pubg .content .btn-buy {
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    background-color: hsl(35deg 87% 49%);
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+}
+/* ================================== END PUBG PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+/* ================================== START APEX PAGE ================================== */
+.content-games-apex {
+    position: relative;
+}
+.content-games-apex .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-games-apex .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-games-apex .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-apex .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-apex .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-games-apex .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-games-apex .games-landing-apex {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-apex .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-games-apex .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-games-apex .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-games-apex .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-games-apex .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-games-apex .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-games-apex .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-games-apex .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-games-apex .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-games-apex .lks .dropdown .dropdown-menu .parent-link-icon a:hover {  
+    background-color: #fff;
+}
+
+
+.content-games-apex .games-landing-apex .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-apex .games-landing-apex .content {
+    width: 550px;
+    height: 510px;
+    padding: 20px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+}
+.content-games-apex .games-landing-apex .content .image {
+    margin-bottom: 20px;
+}
+.content-games-apex .games-landing-apex .content .image img {
+    max-width: 100%;
+    width: 140px;
+}
+.content-games-apex .games-landing-apex .content .form-select {
+    width: 280px;
+    margin: 0 auto;
+    box-shadow: none;
+    height: 50px;
+}
+.content-games-apex .games-landing-apex .content .inp-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+.content-games-apex .games-landing-apex .content .email-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    caret-color: hsl(35deg 87% 49%);
+}
+.content-games-apex .games-landing-apex .content .btn-buy {
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    background-color: hsl(35deg 87% 49%);
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+}
+/* ================================== END APEX PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== START DISCORD PAGE ================================== */
+.content-games-discord {
+    position: relative;
+}
+.content-games-discord .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-games-discord .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-games-discord .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-discord .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-discord .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-games-discord .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-games-discord .games-landing-discord {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-discord .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-games-discord .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-games-discord .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-games-discord .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-games-discord .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-games-discord .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-games-discord .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-games-discord .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-games-discord .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-games-discord .lks .dropdown .dropdown-menu .parent-link-icon a:hover {  
+    background-color: #fff;
+}
+
+
+.content-games-discord .games-landing-discord .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-discord .games-landing-discord .content {
+    width: 550px;
+    height: 510px;
+    padding: 20px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+}
+.content-games-discord .games-landing-discord .content .image {
+    margin-bottom: 20px;
+}
+.content-games-discord .games-landing-discord .content .image img {
+    max-width: 100%;
+    width: 140px;
+}
+.content-games-discord .games-landing-discord .content .form-select {
+    width: 280px;
+    margin: 0 auto;
+    box-shadow: none;
+    height: 50px;
+}
+.content-games-discord .games-landing-discord .content .inp-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+.content-games-discord .games-landing-discord .content .email-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    caret-color: hsl(35deg 87% 49%);
+}
+.content-games-discord .games-landing-discord .content .btn-buy {
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    background-color: hsl(35deg 87% 49%);
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+}
+/* ================================== END DISCORD PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== START FORTNITE PAGE ================================== */
+.content-games-fortnite {
+    position: relative;
+}
+.content-games-fortnite .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-games-fortnite .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-games-fortnite .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-fortnite .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-fortnite .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-games-fortnite .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-games-fortnite .games-landing-fortnite {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-fortnite .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-games-fortnite .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-games-fortnite .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-games-fortnite .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-games-fortnite .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-games-fortnite .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-games-fortnite .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-games-fortnite .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-games-fortnite .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-games-fortnite .lks .dropdown .dropdown-menu .parent-link-icon a:hover {  
+    background-color: #fff;
+}
+
+
+.content-games-fortnite .games-landing-fortnite .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-fortnite .games-landing-fortnite .content {
+    width: 550px;
+    height: 510px;
+    padding: 20px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+}
+.content-games-fortnite .games-landing-fortnite .content .image {
+    margin-bottom: 20px;
+}
+.content-games-fortnite .games-landing-fortnite .content .image img {
+    max-width: 100%;
+    width: 140px;
+}
+.content-games-fortnite .games-landing-fortnite .content .form-select {
+    width: 280px;
+    margin: 0 auto;
+    box-shadow: none;
+    height: 50px;
+}
+.content-games-fortnite .games-landing-fortnite .content .inp-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+.content-games-fortnite .games-landing-fortnite .content .email-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    caret-color: hsl(35deg 87% 49%);
+}
+.content-games-fortnite .games-landing-fortnite .content .btn-buy {
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    background-color: hsl(35deg 87% 49%);
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+}
+/* ================================== END FORTNITE PAGE ================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== START GENSHIN PAGE ================================== */
+.content-games-genshin {
+    position: relative;
+}
+.content-games-genshin .navbar {
+    background-color: black !important;
+    min-height: 70px;
+}
+.content-games-genshin .navbar .navbar-nav .nav-item a {
+    color: #fff;
+    padding: 10px 25px;
+    text-align: right;
+    transition: 0.3s;
+}
+.content-games-genshin .navbar .navbar-nav .nav-item .main {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-genshin .navbar .navbar-nav .nav-item a:hover {
+    color: hsl(35deg 87% 49%);
+}
+.content-games-genshin .navbar .navbar-toggler {
+    box-shadow: none;
+}
+.content-games-genshin .navbar .navbar-toggler span i {
+    color: #fff !important;
+}
+.content-games-genshin .games-landing-genshin {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-genshin .lks {
+    padding: 5px 0;
+    background-color: hsl(35deg 87% 49%);
+}
+.content-games-genshin .lks .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-games-genshin .lks .container .form-select {
+    width: 125px;
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+.content-games-genshin .lks .dropdown .btn {
+    width: 65px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+.content-games-genshin .lks .dropdown .dropdown-menu .parent-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+.content-games-genshin .lks .dropdown .dropdown-menu .parent-link-icon i {
+    margin-left: 10px;
+}
+.content-games-fortnite .lks .dropdown .dropdown-menu .parent-link-icon .dollar-edit {
+    margin-left: 13px;
+}
+.content-games-genshin .lks .dropdown .dropdown-menu .parent-link-icon .box-edit {
+    margin-left: 12px;
+}
+.content-games-genshin .lks .dropdown .dropdown-menu .parent-link-icon a {
+    padding: 5px 10px 5px 5px;
+    text-align: right;
+}
+.content-games-genshin .lks .dropdown .dropdown-menu .parent-link-icon a:hover {  
+    background-color: #fff;
+}
+
+
+.content-games-genshin .games-landing-genshin .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-games-genshin .games-landing-genshin .content {
+    width: 550px;
+    height: 510px;
+    padding: 20px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+}
+.content-games-genshin .games-landing-genshin .content .image {
+    margin-bottom: 20px;
+}
+.content-games-genshin .games-landing-genshin .content .image img {
+    max-width: 100%;
+    width: 140px;
+}
+.content-games-genshin .games-landing-genshin .content .form-select {
+    width: 280px;
+    margin: 0 auto;
+    box-shadow: none;
+    height: 50px;
+}
+.content-games-genshin .games-landing-genshin .content .inp-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+.content-games-genshin .games-landing-genshin .content .email-buy {
+    padding: 0 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    caret-color: hsl(35deg 87% 49%);
+}
+.content-games-genshin .games-landing-genshin .content .btn-buy {
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    background-color: hsl(35deg 87% 49%);
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+}
+/* ================================== END GENSHIN PAGE ================================== */
