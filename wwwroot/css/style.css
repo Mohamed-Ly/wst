@@ -1158,6 +1158,11 @@ font-style: normal;
     width:35px;
     height:35px;  
 }
+.chat-button .chat-submit > i {
+    font-family: 'Almarai', sans-serif !important;
+    font-size: 15px;
+    font-style: italic;
+}
 .chat-button .chat-logs {
     padding:15px; 
     height:370px;
