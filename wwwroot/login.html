@@ -15,34 +15,85 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
         rel="stylesheet">
+    <style>
+        .recaptcha-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
 </head>
 
 <body>
-    <div class="form-box">
-        <form class="form" action="userPage.html">
-            <span class="title">تسجيل الدخول</span>
-            <div class="d-none" id="massage">
-                <p class="text-center m-0 text-light"></p>
+
+    <div class="ps-two-animation">
+
+        <div class="area">
+
+
+            <div class="form-bx-parent">
+
+                <div class="form-box">
+                    <form class="form" action="userPage.html">
+                        <span class="title">تسجيل الدخول</span>
+                        <div class="d-none" id="massage">
+                            <p class="text-center m-0 text-light"></p>
+                        </div>
+                        <!-- <span class="subtitle">Create a free account with your email.</span> -->
+                        <div class="form-container">
+                            <input type="text" id="phone" class="input inp-first" placeholder="رقم الهاتف" required
+                                maxlength="10">
+                            <input type="password" id="password" class="input" placeholder="كلمة السر" required>
+                        </div>
+                        <div class="recaptcha-container">
+                            <div class="g-recaptcha" data-sitekey="6LdMlmElAAAAAH0fWsDPUuDcDrgWg9kLRug-7nOj"
+                                data-callback="onRecaptchaSuccess">
+                            </div>
+                        </div>
+
+                        <button class="login-btn">تسجيل الدخول</button>
+                        <div class="info">
+                            <a href="#">هل نسيت كلمة السر؟</a>
+                            <a href="signup.html">أنشاء حساب</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <!-- <span class="subtitle">Create a free account with your email.</span> -->
-            <div class="form-container">
-                <input type="text" class="input inp-first" id="phone" placeholder="رقم الهاتف" required maxlength="10">
-                <input type="password" class="input" id="password" placeholder="كلمة السر" required>
-            </div>
-            <button class="login-btn">تسجيل الدخول</button>
-            <div class="info">
-                <a href="#">هل نسيت كلمة السر؟</a>
-                <a href="#">أنشاء حساب</a>
-            </div>
-        </form>
+
+
+
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
     </div>
 
 
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/waseet.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=ar' async defer></script>
+
     <script defer>
+        let recaptcha_token = "";
         const api = window.location.protocol + "//" + window.location.host + "/api/";
+        const massage = document.querySelector("#massage");
+
+        function onRecaptchaSuccess(e) {
+            recaptcha_token = e;
+        }
 
         // 0928776769
         // avssascassva@aasvaavs.com
@@ -52,7 +103,7 @@
             const phone = document.querySelector("#phone").value
             const password = document.querySelector("#password").value
 
-            const data = { phone, password }
+            const data = { phone, password, recaptcha_token }
 
             const res = await fetch(api + "auth/login", {
                 method: "POST",
@@ -68,11 +119,14 @@
             } else {
                 massage.className = "bg-success bg-gradient rounded flex justify-content-center align-items-center p-2"
                 massage.children[0].innerHTML = resData.massage;
+
+                setTimeout(() => {
+                    window.location.href = "/userPage.html"
+                }, 5000)
             }
         })
 
     </script>
-
 </body>
 
 </html>

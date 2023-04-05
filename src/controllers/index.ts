@@ -2,7 +2,6 @@ import { Request, Response } from 'express'
 import context from '../config/context'
 import { VerifyJwt, generateJwt } from '../services/auth/jwt';
 
-
 export async function emailVerification(req: Request, res: Response) {
     const token = req.query["token"];
 
