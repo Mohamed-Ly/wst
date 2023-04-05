@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alwaset</title>
+    <!-- BOOTSTRAP FILE -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- CSS MAIN FILE -->
+    <link rel="stylesheet" href="./css/login.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="form-box">
+        <form class="form">
+            <span class="title">تسجيل حساب</span>
+            <div class="d-none" id="massage">
+                <p class="text-center m-0 text-light"></p>
+            </div>
+            <div class="form-container">
+                <input type="text" class="input inp-first" id="inp-name" placeholder="أسم المستخدم" required>
+                <input type="email" class="input inp-first" id="inp-full-name" placeholder="البريد الألكتروني" required>
+                <input type="text" class="input inp-second" id="inp-number" placeholder="رقم الهاتف" required
+                    maxlength="10">
+                <input type="password" class="input inp-second" id="inp-password" placeholder="كلمة السر" required>
+                <input type="password" class="input" id="inp-password-confirm" placeholder="تأكيد كلمة السر" required>
+            </div>
+            <div class="check-rq">
+                <input type="checkbox" name="" id="is-agree" required>
+                <span class="first">أوافق على</span> <a href="#"><span class="second">الشروط والأحكام</span></a>
+            </div>
+            <button class="login-btn" id="sign-up-btn">تسجيل</button>
+
+            <div class="last">
+                <a class="have-account" href="login.html" target="_blank">أمتلك حساب</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/waseet.js"></script>
+    <script defer>
+        const api = window.location.protocol + "//" + window.location.host + "/api/";
+
+
+
+        document.querySelector(".form").addEventListener("submit", async (e) => {
+            e.preventDefault()
+            const name = document.querySelector("#inp-name").value
+            const email = document.querySelector("#inp-full-name").value
+            const phone = document.querySelector("#inp-number").value
+            const password = document.querySelector("#inp-password").value
+            const confirmPassword = document.querySelector("#inp-password-confirm").value
+            const isAgree = document.querySelector("#is-agree").value
+
+            const data = {
+                name,
+                email,
+                phone,
+                password,
+                confirmPassword,
+                isAgree
+            }
+
+
+
+            const res = await fetch(api + "auth/sing-up", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(data),
+            });
+            const resData = await res.json();
+            const massage = document.querySelector("#massage");
+
+            if (!res.ok) {
+                massage.className = "bg-danger bg-gradient rounded flex justify-content-center align-items-center p-2"
+                massage.children[0].innerHTML = resData.error;
+            } else {
+                console.log(resData)
+                massage.className = "bg-success bg-gradient rounded flex justify-content-center align-items-center p-2"
+                massage.children[0].innerHTML = resData.massage;
+            }
+        })
+
+    </script>
+</body>
+
+</html>
